@@ -54,7 +54,7 @@ void drawBezier(int x0,int y0,int x1,int y1,int x2,int y2, int resolution,screen
 
     j0 = lerp(c0,c1,iter,resolution);
     k0 = lerp(d0,d1,iter,resolution);
-    //draw_line(c0,d0,c1,d1,s,c);
+    draw_line(c0,d0,c1,d1,s,c);
     if(iter > 0){
       draw_line(tj0,tk0,j0,k0,s,c);
     }
